@@ -6,11 +6,11 @@ require 'pry'
 class EmailAddressParser
   attr_accessor :email
   def initialize (email)
-    binding.pry
     @email = []
-  end
-  def parse
     @email << email
+  end
+    binding.pry
+  def parse
     @email
   end
 end
