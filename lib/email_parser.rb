@@ -9,7 +9,6 @@ class EmailAddressParser
     @email = []
     @email << email
   end
-    binding.pry
   def parse
 
   end
